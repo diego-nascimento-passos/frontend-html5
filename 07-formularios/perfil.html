@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<!-- Define o idioma da página como Português do Brasil -->
+<html lang="pt-BR">
+<head>
+     <!-- Configuração de caracteres especiais (acentos, cedilha) -->
+    <meta charset="UTF-8">
+    <!-- Garante que o site seja responsivo em celulares e tablets -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Título que aparece na aba do navegador -->
+    <title>Meu Perfil</title>
+</head>
+<body>
+    <!-- Cabeçalhos principais da página -->
+    <h1>Diego Nascimento Passos</h1>
+    <form>
+        <h2>Perfil do estudante</h2>
+            <!-- Campo de texto para o Nome -->
+            <label>Nome completo</label><br>
+                <input type="text"> <br>
+            <!-- Campo formatado para E-mail -->
+            <label>E-mail</label>
+                <input type="email"><br>
+            <!-- Campo numérico para a Idade -->
+            <label>Idade</label>
+                <input type="number"><br>
+            <!-- Campo de calendário para escolher a Data -->
+            <label>Data de nascimento</label>
+                <input type="date"><br>
+            <!-- Campo formatado para Telefone -->
+            <label>Telefone</label>
+                <input type="tel"><br>
+    <!-- Menu de seleção (Dropdown) para o nível de conhecimento -->
+    <label>Nível de conhecimento</label>
+    <select>
+            <option>Iniciante</option>
+            <option>Básico</option>
+            <option>Intermediário</option>
+            <option>Avançado</option>
+    </select><br>
+    <!-- Caixas de seleção (Checkbox) para escolher múltiplas tecnologias -->
+    <p>Quais tecnologias você está estudando?</p>
+        <input type="checkbox"> C <br>
+        <input type="checkbox"> Python <br>
+        <input type="checkbox"> HTML <br>
+        <input type="checkbox"> CSS <br>
+        <input type="checkbox"> JavaScript <br>
+    <!-- Botões de rádio (Radio) para escolha única (Sim ou Não) -->
+    <p>Estuda programação?</p><br>
+        <input type="radio" name="estudo_programacao"> Sim
+        <input type="radio" name="estudo_programacao"> Não
+    <!-- Caixa de texto maior para mensagens ou biografias -->
+    <p>Fale um pouco sobre você</p>
+    <textarea></textarea> <br>
+    <!-- Botão para enviar ou cadastrar o formulário -->
+    <button>Cadastrar perfil</button>
+    </form>
+</body>
+</html>
